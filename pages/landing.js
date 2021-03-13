@@ -21,6 +21,7 @@ import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
 import ProductSection from "pages-sections/LandingPage-Sections/ProductSection.js";
 import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
 import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
+import SectionCarousel from "../pages-sections/Components-Sections/SectionCarousel";
 
 const dashboardRoutes = [];
 
@@ -49,7 +50,7 @@ export default function LandingPage(props) {
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>Annie's Nail Spa</h1>
               <h4>
-                Best salon in town. best prices. products. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis quis harum sit. Iure, minima ab eaque expedita sint architecto? Voluptatum.
+                Best salon in town. best prices. quality products. experienced staff.
               </h4>
               <br />
               <Button
@@ -70,6 +71,7 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <ProductSection />
           <TeamSection />
+          <SectionCarousel/>
           <WorkSection />
         </div>
       </div>
