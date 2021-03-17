@@ -46,10 +46,7 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  With over 20 years in the nail industry, Annie can do it all. She will make you get the best products in the industry. 
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -89,10 +86,7 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  A perfectionist. Tim's favorite is dip nails. He is very detailed and will make sure your nails are perfect. 
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -125,10 +119,7 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  Cam can take care of you and give you the complete beauty treatment. From your toes, nails, to eyebrows, she will have you leaving feeling brand new.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -168,10 +159,7 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  With over 20 years of experience, David is our best pedcurist. Book your best pedi ever with David now and be ready for Spring!
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -187,7 +175,7 @@ export default function TeamSection() {
                   color="transparent"
                   className={classes.margin5}
                 >
-                  <i className={classes.socials + " fab fa-instagram"} />
+                  <i href="/"  className={classes.socials + " fab fa-instagram"} />
                 </Button>
                 <Button
                   justIcon
@@ -211,10 +199,7 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  Mike can do it all. He loves creating beautiful nails. Whatever you want done, Mike can do it.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>

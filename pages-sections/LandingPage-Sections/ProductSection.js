@@ -6,12 +6,16 @@ import { makeStyles } from "@material-ui/core/styles";
 import Chat from "@material-ui/icons/Chat";
 import VerifiedUser from "@material-ui/icons/VerifiedUser";
 import Fingerprint from "@material-ui/icons/Fingerprint";
+import Star from "@material-ui/icons/Star";
+import HotTub from "@material-ui/icons/HotTub";
+import FilterVintage from "@material-ui/icons/FilterVintage";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import InfoArea from "components/InfoArea/InfoArea.js";
 
 import styles from "assets/jss/nextjs-material-kit/pages/landingPageSections/productStyle.js";
+import { StarBorder } from "@material-ui/icons";
 
 const useStyles = makeStyles(styles);
 
@@ -50,7 +54,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="DND"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              description="Vibrant matching gel and regular nail polish. over 140+ colors to choose from."
               icon={Fingerprint}
               iconColor="danger"
               vertical
@@ -59,8 +63,26 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Nu Revolution"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Fingerprint}
+              description="Dip powder is over 130+ colors. Ombre design. Healthy nails. Last up to 3 weeks. Although we reccomend 2 week take offs."
+              icon={HotTub}
+              iconColor="warning"
+              vertical
+            />
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <InfoArea
+              title="Nice Dist Co"
+              description="A wide variety of scents to choose from. "
+              icon={Star}
+              iconColor="danger"
+              vertical
+            />
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <InfoArea
+              title="Codi"
+              description="Luxury Korean beauty product. Lotion and pedicure massage lotion that will leave your skin feeling soft and hydrated."
+              icon={FilterVintage}
               iconColor="danger"
               vertical
             />
